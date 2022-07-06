@@ -1,4 +1,4 @@
-# DNAVarietyCalculator
+# RNAVarietyCalculator
 Calculates differences in DNA
 
-DNACalculator offers a very simple GUI design using tkinter
+RNACalculator offers a very simple GUI design using tkinter
