@@ -7,3 +7,5 @@ Each string accepted in the input is turned into groups of four amino acids, suc
 Then these genes are compared to see if they match or not, results will be out in a percentage that matches, visual support will be added soon.
 
 The main goal is to make a mini version of something that would be functional at extraordinary sizes where there are thousands or millions of genes
+
+RNAFixed delivers code that is updated to meet industry standards and has an addition of an histogram that plots the abundance of singular amino acids in the sample, second to be added soon
