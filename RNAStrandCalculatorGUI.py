@@ -1,8 +1,8 @@
 from tkinter import * 
-from more_itertools import *
+from more_itertools import chunked
 
 root = Tk()
-root.title("DNA Strand Varience Calculator")
+root.title("RNA Strand Varience Calculator")
 #root.iconbitmap("dnaico.ico")
 root.geometry("320x220")
 
@@ -21,8 +21,9 @@ dnaDrop1 = OptionMenu(root, dna1, *dnaList)
 dnaDrop1.grid(column=0, row=1, sticky=W, **paddings)
 dnaDrop2 = OptionMenu(root, dna2, *dnaList)
 dnaDrop2.grid(column=0, row=2, sticky=W, **paddings)
-#Function to take the entry and add it as a rna strand
+
 def addCl():
+    """Function to take the entry and add it as a rna strand"""
     dnaList.append(e.get())
     dnaDrop1 = OptionMenu(root, dna1, *dnaList)
     dnaDrop1.grid(column=0, row=1, sticky=W, **paddings)
