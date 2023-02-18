@@ -5,6 +5,8 @@ CPPDNA is the final version at 18-02-23
 
 It is written in CPP to maximize performance and is an integretable backend
 
+For the comparison of strands 40 characters is the limit, feel free to play with the code to change the limits
+
 ***********************************************************
 
 RNACalculator offers a very simple GUI design using tkinter
