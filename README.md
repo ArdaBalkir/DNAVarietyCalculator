@@ -1,6 +1,12 @@
 # RNAVarietyCalculator
 Calculates differences in DNA
 
+CPPDNA is the final version at 18-02-23
+
+It is written in CPP to maximize performance and is an integretable backend
+
+***********************************************************
+
 RNACalculator offers a very simple GUI design using tkinter
 
 Each string accepted in the input is turned into groups of four amino acids, such as ATCGGCTG -> ATCG GCTG, each forming a singular gene
